@@ -1,0 +1,19 @@
+{
+  "name": "drag-n-resize",
+  "version": "1.0.0",
+  "description": "A library to make child elements draggable and resizable within a parent element.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Drag",
+    "Drop",
+    "Resize",
+    "Grid",
+    "Layout",
+    "Widgets"
+  ],
+  "author": "Didrik Fleischer",
+  "license": "ISC"
+}

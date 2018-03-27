@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag and Resize</title>
+    <style>
+        #mydiv {
+            position: absolute;
+            z-index: 9;
+            background-color: #f1f1f1;
+            text-align: center;
+            border: 1px solid #d3d3d3;
+        }
+        
+        #mydivheader {
+            padding: 10px;
+            cursor: move;
+            z-index: 10;
+            background-color: #2196F3;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!--<div id="dragon-test"><div class="dragon-test-header">Header</div></div>-->
+    <div><h2>Drag and Drop Development Page</h2></div>
+    <div id="dragon-container">
+        <div class="dragon-child"><div class="dragon-child-header">Header</div></div>
+        <div class="dragon-child"><div class="dragon-child-header">Header</div></div>
+        <div class="dragon-child"><div class="dragon-child-header">Header</div></div>
+    </div>
+          
+</body>
+
+<script src="/dist/build.js"></script>
+</html>
+

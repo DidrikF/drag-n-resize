@@ -1,0 +1,22 @@
+#dragon-container {
+    position: absolute;
+    margin: 0;
+    background-color: beige;
+    border: 1px solid #ccc; 
+}
+
+.dragon-child {
+    position: absolute;
+    background-color: lightblue;
+    border: 1px solid blue; 
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.dragon-child-header {
+    height: 20px;
+    background-color: blue;
+    cursor: move;
+    z-index: 10;
+}
